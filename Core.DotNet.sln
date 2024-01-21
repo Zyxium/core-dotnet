@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{49D4E432-6C94-429A-AC3B-AC643F0EFE2E}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		LICENSE = LICENSE
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C54FB256-C8A0-47A7-B991-79F0ED11D750}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet", "src\DotNet\DotNet.csproj", "{02C3F3E0-808B-4A20-896C-7039F2372FD6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02C3F3E0-808B-4A20-896C-7039F2372FD6} = {C54FB256-C8A0-47A7-B991-79F0ED11D750}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{02C3F3E0-808B-4A20-896C-7039F2372FD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02C3F3E0-808B-4A20-896C-7039F2372FD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02C3F3E0-808B-4A20-896C-7039F2372FD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02C3F3E0-808B-4A20-896C-7039F2372FD6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
